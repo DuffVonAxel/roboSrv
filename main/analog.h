@@ -3,6 +3,7 @@
 
 #include <driver/adc.h>															// Modulo conversor ADC.
 
+/*
 #define batMax  3958    // 14.5V
 #define bat100  3822    // 14.0V
 #define bat080  3685    // 13.5V
@@ -11,6 +12,16 @@
 #define bat020  3276    // 12.0V
 #define bat000  3139    // 11.5V
 #define batMin  2730    // 10.0V
+*/
+
+#define batMax  4095    // 16.80V
+#define bat100  3607    // 14.80V
+#define bat080  3422    // 14.04V
+#define bat060  3237    // 13.28V
+#define bat040  3051    // 12.52V
+#define bat020  2866    // 11.76V
+#define bat000  2681    // 11.00V
+//#define batMin  2730    // 09.31V
 
 void adcIniciar(void)															// Inicializa o hardware do modulo conversor ADC.
 {
